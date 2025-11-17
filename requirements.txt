@@ -1,0 +1,17 @@
+# Core
+pandas==2.2.2
+numpy==1.26.4
+
+# Modeling
+scikit-learn==1.4.2
+catboost==1.2.5
+
+# Visualization
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Explainability
+shap==0.44.1
+
+# Utilities
+tqdm==4.66.1

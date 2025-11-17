@@ -1,0 +1,99 @@
+# ----------------------------------------
+# PYTHON / DATA SCIENCE — .gitignore PRO
+# ----------------------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python egg metadata
+*.egg-info/
+*.egg
+
+# Build artifacts
+build/
+dist/
+*/__pycache__/
+
+# Logs
+*.log
+*.out
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.coverage*
+.cache/
+nosetests.xml
+coverage.xml
+
+# Environment files
+*.env
+*.ini
+*.cfg
+*.toml
+
+# Dataset files
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.arrow
+*.pickle
+*.joblib
+
+# Sensitive / large data files
+data/
+datasets/
+raw_data/
+processed_data/
+
+# Model files
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.bin
+*.cbm     # CatBoost model files
+*.pt      # PyTorch models
+*.onnx
+*.tflite
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# MacOS / Windows junk
+.DS_Store
+Thumbs.db
+
+# Cache folders
+__pycache__/
+.cache/
+*.ipynb_checkpoints/
+
+# Render/Deployment
+staticfiles/
+media/
+
+# ----------------------------------------
+# END OF FILE
+# ----------------------------------------
